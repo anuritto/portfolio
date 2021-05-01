@@ -1,0 +1,55 @@
+* {
+    font-family: PerfectDOSVGA437;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    font-size: 2.5vh;
+    color: black;
+}
+body{
+    height: 100vh;
+    min-height: 100vh;
+    background-size: 100%;
+}
+.psevdobody {
+    background-size: 100% auto;
+}
+
+@font-face {
+    font-family: "PerfectDOSVGA437";
+    src: url("./../src/styles/fonts/19888.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@media screen and (max-width: 990px){
+    .container{
+        width: 80%;
+        max-height: calc(100vh - 50px);
+        padding-top: 10vh;
+    }
+}
+@media screen and (max-width: 750px){
+    .wrapper {
+        display: grid;
+        grid-template-areas: "bio""skills""links";
+        grid-template-columns: 1fr;
+    }
+    *{
+        font-size: 2.5vh;
+    }
+    .container{
+        width: 90%;
+        max-height: none;
+
+        padding-top: 0;
+    }
+    .footer{
+        position: inherit;
+        height: 50px;
+        padding: 0.5em;
+
+    }
+    .footer a{
+        top: 0;
+    }
+}
