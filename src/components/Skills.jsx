@@ -7,15 +7,15 @@ export const Skills = (props) => {
     const myLvls = [
         {
            name: 'HTML5',
-           lvl: 6
+           lvl: 8
         },
         {
            name: 'CSS3',
-           lvl: 6
+           lvl: 8
         },
         {
            name: 'JS',
-           lvl: 6
+           lvl: 7
         },
         {
            name: 'ReactJS',
@@ -27,7 +27,7 @@ export const Skills = (props) => {
         },
         {
            name: 'NodeJS',
-           lvl: 6
+           lvl: 7
         },
         {
            name: 'Express',
