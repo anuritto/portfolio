@@ -7,7 +7,7 @@ import {CasualStyles} from "../styles/CasualTheme";
 import {MarioStyles} from "../styles/MarioTheme";
 import gumba from './../styles/img/gumba.png'
 export const MainPage = () =>{
-    const [marioTheme,setMarioTheme] = useState(true)
+    const [marioTheme,setMarioTheme] = useState(false)
     const switchTheme = (event)=>{
         event.preventDefault()
         setMarioTheme(!marioTheme)
